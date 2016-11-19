@@ -1,0 +1,131 @@
+/* CSS Document */
+body{
+	background-image:url(../images/u114.jpg);	
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+#player1{
+	position:absolute;
+	float:left;
+	width:10%;
+	height:10%;
+	margin:10px;
+}
+
+#personnaltxt{
+	text-align:center;
+	font-family:'华文新魏';
+	font-style:normal;
+  	color:#FFFFFF;
+}
+
+
+#player2{
+	position:absolute;
+	left:65%;
+	width:10%;
+	height:10%;
+	margin:10px;
+}
+
+#personnaltxt1{
+	text-align:center;
+	font-family:'华文新魏';
+	font-style:normal;
+  	color:#FFFFFF;
+}
+
+#chessboard{
+	position: absolute;
+	top:5%;
+	left:13%;
+	right:36%;
+	height:75%;
+	text-align:center;
+}
+
+#chessbutton{
+	width:114px;
+	height:36px;
+	background:inherit;
+	background-color:rgba(0, 204, 255, 0.2);
+	border:none;
+	border-radius:5px;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+	font-size:20px;
+	color:#FFF;
+}
+
+#rightarea{
+	position:absolute;
+	left:80%;
+	height:100%;
+	width:20%;
+	
+}
+
+#exit{
+	position:absolute;
+	left:70%;
+	width:60px;
+	font-family:'华文隶书';
+	font-weight:400;
+	font-size:28px;
+	color:#FFFFFF;
+	background-image:url(../images/exitu485.png);
+	background-size:cover;
+}
+#menu li{
+	font-family:'Arial Negreta', 'Arial Normal', 'Arial';
+	font-weight:700;
+	font-style:normal;
+	font-size:20px;
+	color:#009DDA;
+	float:left;
+	cursor:pointer;
+	background-image:url(../images/friendcard.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	list-style:none;
+}
+#hallmassage{
+	margin-top:10px;
+	background-color:rgba(0, 0, 0, 0.298039215686275);
+	font-family:'华文新魏';
+  	color:#FFF;
+}
+#hallmassage p{
+	cursor:pointer;
+}
+#hallpersoncircle ul{
+	display:none;
+}
+#phimg2{
+	display:none;
+}
+#mfimg2{
+	display:none;
+}
+	
+	
+#cheat{
+	position:absolute;
+	top:60%;
+	height:50%;
+}
+#out{
+	height:250px;  
+	border: 1px dashed #000000; 
+	padding: 10px;
+	background-color:rgba(0, 0, 0, 0.298039215686275);
+	font-family:'Arial Normal', 'Arial';
+	font-weight:400;
+	font-style:normal;
+	font-size:13px;
+	color:#FFFFFF;
+	text-align:start;
+	
+}

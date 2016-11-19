@@ -1,0 +1,14 @@
+/* CSS Document */
+body{
+}
+
+#log{
+	text-align:center;
+}
+
+#bottom{
+	position:absolute;
+	text-align:center;
+	top:90%;
+	width:100%;
+}
